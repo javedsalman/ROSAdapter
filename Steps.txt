@@ -1,0 +1,7 @@
+STEPS:
+
+roscore
+python3 ros_arrowhead.py
+roslaunch robot_services.launch
+rosrun mv_node line_tracer
+rosrun robot_control main.py
